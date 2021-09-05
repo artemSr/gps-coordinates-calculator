@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.inputWrapper {
+  display: flex;
+  flex-direction: row;
+}
+.labelWrapper {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 5px;
+}
+input {
+  width: 100px;
+}
+h1 {
+  text-align: center;
+}
