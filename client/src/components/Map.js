@@ -11,7 +11,7 @@ function Map({form}){
         <Marker position={{lat: Number.parseFloat(form.lat1), lng: Number.parseFloat(form.lon1)}} />
         <Marker position={{lat: Number.parseFloat(form.lat2), lng: Number.parseFloat(form.lon2)}} />
         <Polyline
-          path={{coordinates}}
+          path={coordinates}
           options={{
             geodesic: true,
             strokeColor: '#FF0000',

@@ -3,7 +3,7 @@ const path = require('path')
 
 const app = express()
 const jsonParser = express.json()
-app.use(express.static(path.join(__dirname, 'client')))
+app.use(express.static(path.join(__dirname, 'dist')))
 
 app.post('/coordinates', jsonParser, (req, res) => {
   if (!req.body) res.sendStatus(400);
